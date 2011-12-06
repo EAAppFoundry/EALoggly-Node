@@ -6,11 +6,11 @@ var loggly = require('loggly');
  *  configuration section of your input
  */
 var config = {
-  "subdomain": "eaturner",
-  "user": "donwb",
-  "password": "traci1",
+  "subdomain": "your-loggly-domain",
+  "user": "loggly-user-name",
+  "password": "loggly-password",
   "json":true,
-  "apikey":"3f7301a6-4e6d-488a-bfad-6b67f9f50c94"
+  "apikey":"your-crazy-long-loggly-api-key"
 };
 /*
  * No code changes below this line are necessary
