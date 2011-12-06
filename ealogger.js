@@ -13,7 +13,8 @@ var config = {
   "apikey":"3f7301a6-4e6d-488a-bfad-6b67f9f50c94"
 };
 /*
- * ---------------------
+ * No code changes below this line are necessary
+ ---------------------
  */
 
 var logConf = {
@@ -27,16 +28,18 @@ var logConf = {
 var apikey = config.apikey
 var client = loggly.createClient(logConf);
 
-
+// LogInfo class
 var LogInfo = function LogInfo(level, machine, message){
   this.level = level;
   this.machine = machine;
   this.message = message;
 };
 
-function log(level, machine, message){
+
+
+// Log method exposed to consumers
+module.exports.log = function (level, machine, message){
 	var li = new LogInfo(level, machine, message);
 	client.log(apikey, li);
 };
 
-module.exports.log = log;
