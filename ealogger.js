@@ -1,6 +1,20 @@
 var loggly = require('loggly');
-var Config = require('./config');
-var config = new Config();
+
+
+/*
+ *  Add your Loggly config here.  You get the apikey from the
+ *  configuration section of your input
+ */
+var config = {
+  "subdomain": "eaturner",
+  "user": "donwb",
+  "password": "traci1",
+  "json":true,
+  "apikey":"3f7301a6-4e6d-488a-bfad-6b67f9f50c94"
+};
+/*
+ * ---------------------
+ */
 
 var logConf = {
     subdomain: config.subdomain,
