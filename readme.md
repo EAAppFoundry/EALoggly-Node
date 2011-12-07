@@ -39,13 +39,13 @@ _Note: The above code assumes the ealogger.js file is in the same folder as the 
 Now that everything is configured, logging is as simple as:   
 
 ``` js
-	logger.log('info', 'myMachine', 'Entering the write method');
+logger.log('info', 'myMachine', 'Entering the write method');
 ```
 
 The parameter info for the log method is as follows:  
 
 ``` js
-	logger.log(logLevel, machineName, logMessage)
+logger.log(logLevel, machineName, logMessage)
 ```
 
 Using one of the following 5 log levels makes it easier to isolate your log messages on the companion EALoggly site:   
