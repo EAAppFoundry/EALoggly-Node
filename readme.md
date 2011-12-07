@@ -27,7 +27,7 @@ var config = {
 If you have any questions about these values please see the loggly.com documentation at [wiki.loggly.com] (http://wiki.loggly.com/).
 
 ### Logging
-Using the logger is simple.  First you need to ```require``` the ealogger.js module.
+Using the logger is simple.  First you need to ```require``` the ealogger.js module.   
 ``` js
 	var logger = require('./ealogger');
 ```  
@@ -47,3 +47,5 @@ The parameter info for the log method is as follows:
 Using one of the following 5 log levels makes it easier to isolate your log messages on the companion EALoggly site:   
 ```info```, ```debug```, ```warn```, ```error```, ```fatal```   
 
+## Questions?
+That's pretty much it.  Have any questions?  email me don.browning@turner.com.  
