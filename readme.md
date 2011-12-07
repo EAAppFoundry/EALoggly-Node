@@ -28,6 +28,7 @@ If you have any questions about these values please see the loggly.com documenta
 
 ### Logging
 Using the logger is simple.  First you need to ```require``` the ealogger.js module.   
+  
 ``` js
 var logger = require('./ealogger');
 ```  
