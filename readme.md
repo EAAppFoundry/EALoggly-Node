@@ -29,7 +29,7 @@ If you have any questions about these values please see the loggly.com documenta
 ### Logging
 Using the logger is simple.  First you need to ```require``` the ealogger.js module.   
 ``` js
-	var logger = require('./ealogger');
+var logger = require('./ealogger');
 ```  
 _Note: The above code assumes the ealogger.js file is in the same folder as the .js file you want to log from.  If it's not, adjust your path accordingly._
 
