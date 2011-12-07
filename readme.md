@@ -3,7 +3,8 @@ A node.js client wrapper for loggly.com
 
 
 ## Dependencies
-- [Node-Loggly] (https://github.com/nodejitsu/node-loggly) - you'll need to install Nodejitsu's node-loggly npm module to use the EALogger.  To do this, just run    
+- [Node-Loggly] (https://github.com/nodejitsu/node-loggly) - you'll need to install Nodejitsu's node-loggly npm module to use the EALogger.  To do this, just run   
+ 
 ``` bash
 	$ [sudo] npm install loggly
 ```
@@ -36,11 +37,13 @@ _Note: The above code assumes the ealogger.js file is in the same folder as the 
 
 
 Now that everything is configured, logging is as simple as:   
+
 ``` js
 	logger.log('info', 'myMachine', 'Entering the write method');
 ```
 
 The parameter info for the log method is as follows:  
+
 ``` js
 	logger.log(logLevel, machineName, logMessage)
 ```
